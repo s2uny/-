@@ -54,7 +54,7 @@ function App() {
   if (winner) {
     status = `승자는 ` + winner;
   } else {
-    status = `다음플레이어 + ${xIsNext ? "A" : "B"}`;
+    status = `다음플레이어 ${xIsNext ? "현재" : "상선"}`;
   }
 
   const handleCilck = (i) => {
